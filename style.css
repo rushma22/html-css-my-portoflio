@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.sides{
+    width: 50%;
+    height: 100vh;
+    background-color: #9DE6FC;
+    font-size: 100px;
+}
+.side2{
+    background-color: #BD82F5;
+}
+
+.side1 > p {
+    font-family: "Sofia", sans-serif;
+    text-align: end;
+    color: #A593F5;
+}
+
+.side2 > p {
+    font-family: "Trirong", serif;
+    color: #9DE6FC;
+}
+
+.down{
+    padding-top: 20px;
+}
+
+.profile-section > img {
+    height: 400px;
+    width:400px;
+    border-radius: 50%;
+}
+
+.profile-section{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    background-color: #9DE6FC;
+    align-items: center;
+    justify-content: center;
+}
+
+.about{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Trirong", serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.about h1 {
+    font-size: 50px;
+    color: #AF5AFF;
+    text-align:left;
+    
+}
+
+.about p {
+    font-size: 1.2rem;
+    margin: 0 50px;
+}
+
+.skills{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column ;
+    font-family: "Trirong", serif;
+    text-align: justify;
+}
+
+.projects{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #BD82F5;
+}
+
+.projects img {
+    height: 300px;
+    width: 300px;
+    padding:5px 50px 10px 50px;
+}
+
+
+.skills > li {
+    list-style: none;
+    padding: 0px 50px 0 50px;
+}
+
+#skills{
+    color: #4AD5FF;
+    font-size: 50px;
+}
+
+.contact{
+    width: 50%;
+    height: 100vh;
+    background-color:#9DE6FC ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Trirong", serif;
+
+}
+
+.contact *{
+    
+    padding: 0 70px 0 70px;
+    text-align: center;
+    font-size: large;
+}
+
+.contact h1{
+    font-size: 60px;
+    color: #AF5AFF;;
+}
+
+footer{
+    width: 50%;
+    height: 100vh;
+    background-color: #BD82F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Trirong", serif;
+
+}
+
+footer li {
+    list-style: none;
+    margin: 20px;
+}
+
+footer img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#git{
+    height: 50px;
+    width: 80px;
+}
+#hands{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.contact button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #AF5AFF;
+    color: white;
+}
+
+@media (max-width:852px) {
+    .profile-section > img {
+        height: 200px;
+        width:200px;
+        border-radius: 50%;
+    }
+
+    .skills > li {
+        padding: 0px 10px 0 10px;
+        font-size: 15px;
+    }
+
+    .skills p {
+        display: none;
+    }
+    
+    #skills{
+        color: #4AD5FF;
+        font-size: 40px;
+    }
+    .contact *{
+    
+        padding: 0 ;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .contact h1{
+        font-size: 40px;
+        color: #AF5AFF;;
+    }
+    #hands{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+    
+    
+    
+}
+
+@media (min-width:852px) {
+    #design {
+        align-self: flex-end;
+    }
+}
+
+@media (min-width:852px) and (max-width:1180px) {
+    .skills{
+       font-size: small;
+    }
+}
